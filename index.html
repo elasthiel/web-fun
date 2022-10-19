@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        
+        <title>ebay</title>
+    </head>
+    <body>
+        <div id="wrapper">
+            <nav class="row nav-tools">
+                <ul class="nav-tools__list--sign-in">
+                    <li><span>Hi!</span></li>
+                    <li><a href="#">Sign in</a></li>
+                    <li><span>or</span></li>
+                    <li><a href="#">register</a></li>
+                </ul><!--
+                --><ul class="nav-tools__list--help">
+                    <li><a href="#">Daily Deals</a></li>
+                    <li><a href="#">Brand Outlet</a></li>
+                    <li><a href="#">Help & Contact</a></li>
+                </ul><!--
+                --><ul class="nav-tools__list--personal">
+                    <li><a href="#">Sell</a></li>
+                    <li><a href="#">Watchlist</a></li>
+                    <li><a href="#">My eBay</a></li>
+                    <li>
+                        <a href="#" class="nav-tools__btn">
+                            <img class="nav-tools__img" src="images/bell.svg" alt="bell icon">
+                        </a>
+                        <a href="#">
+                            <img class="nav-tools__img" src="images/cart-icon.png" alt="cart icon">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="row banner">
+                <img class="banner__img" src="images/ebay-logo.png"><!--
+                --><form class="banner__form" method="" action="">
+                    <input class="banner__inputs banner__inputs--text" type="text" placeholder="Search for anything"><!--
+                    --><select class="banner__inputs banner__inputs--select">
+                        <option>All categories</option>
+                    </select>
+                    <input class="banner__btn banner__btn--search" type="submit" value="Search">
+                </form>
+                <a class="banner__btn banner__btn--advance" href="#">Advanced</a>
+            </div>
+            <nav class="row categories">
+                <a href="#">Home</a><!--
+                --><a href="#">&#9829;Saved</a><!--
+                --><a href="#">Motors</a><!--
+                --><a href="#">Electronics</a><!--
+                --><a href="#">Collectibles & Art</a><!--
+                --><a href="#">Home & Garden</a><!--
+                --><a href="#">Clothing & Accessories</a><!--
+                --><a href="#">Toys</a><!--
+                --><a href="#">Sporting Goods</a><!--
+                --><a href="#">More</a>
+            </nav>
+            <main>
+                <section class="row top-brands">
+                    <div class="top-brands__section">
+                        <p class="top-brands__title">Summer</p>
+                        <p class="top-brands__title">electronics</p>
+                        <p class="top-brands__title">from top brands</p>
+
+                        <a class="top-brands__btn top-brands__btn--buy" href="#">Buy it now ➔</a>
+                    </div><!--
+                    --><div class="top-brands__section top-brands__section--sample">
+                        <a class="top-brands__btn" href="#">Camera & Lenses ➔</a>
+                        <img class="top-brands__img" src="images/camera-lenses.webp" alt="camera and lense">
+                    </div><!--
+                    --><div class="top-brands__section top-brands__section--sample">
+                        <a class="top-brands__btn" href="#">Portable Speaker & Headphones ➔</a>
+                        <img class="top-brands__img" src="images/portable-speaker-headphones.webp" alt="portable speaker and headphones">
+                    </div><!--
+                    --><div class="top-brands__section top-brands__section--sample">
+                        <a class="top-brands__btn" href="#">SSD & Graphics cards ➔</a>
+                        <img class="top-brands__img" src="images/ssd-gpu.webp" alt="ssd drive and graphics card">
+                    </div>
+                </section>
+                <section class="row sale">
+                    <h2 class="sale__title">Refresh every room with up to 60% off</h2>
+                    <a class="sale__btn" href="#">See all ➔</a>
+                    <div class="sale__section">
+                        <img class="sale__img" src="images/furniture.webp" alt="furniture"><!--
+                        --><img class="sale__img" src="images/mattresses.webp" alt="mattresses"><!--
+                        --><img class="sale__img" src="images/bedding.webp" alt="bedding"><!--
+                        --><img class="sale__img" src="images/kitchen-dining.webp" alt="kitchen and dining"><!--
+                        --><img class="sale__img" src="images/rugs-lighting.webp" alt="rugs and lighting"><!--
+                        --><img class="sale__img" src="images/patio-furniture.webp" alt="patio furniture"><!--
+                        --><img class="sale__img" src="images/sofas-sectionals.webp" alt="sofas and sectionals">
+                    </div>
+                </section>
+                <section class="row today-deal">
+                    <h2 class="today-deal__title">Today's Deals - All with Free shipping</h2><!--
+                    --><a class="today-deal__btn" href="#">See all ➔</a>
+                    <div class="today-deal__section">
+                        <img class="today-deal__img" src="images/windows-laptop.jpg" alt="windows laptop">
+                        <p class="today-deal__text--emphasize">$349.99</p>
+                        <p class="today-deal__text--discount">$899.99 - 61% OFF</p>
+                    </div><!--
+                    --><div class="today-deal__section">
+                        <img class="today-deal__img" src="images/iphone-lineup.webp" alt="iphone lineup">
+                        <p class="today-deal__text--emphasize">$289.99</p>
+                        <p class="today-deal__text--discount">$799.99 - 64% OFF</p>
+                    </div><!--
+                    --><div class="today-deal__section">
+                        <img class="today-deal__img" src="images/puma.webp" alt="black puma shoes">
+                        <p class="today-deal__text--emphasize">$29.99</p>
+                        <p class="today-deal__text--discount">$60.00 - 50% OFF</p>
+                    </div><!--
+                    --><div class="today-deal__section">
+                        <img class="today-deal__img" src="images/xbox.jpg" alt="xbox">
+                        <p class="today-deal__text--emphasize">$539.99</p>
+                        <p class="today-deal__text--discount">$559.98 - 4% OFF</p>
+                    </div><!--
+                    --><div class="today-deal__section">
+                        <img class="today-deal__img" src="images/pokemon.jpg" alt="pokemon box">
+                        <p class="today-deal__text--emphasize">$94.97</p>
+                        <p class="today-deal__text--discount">$144.95 - 34% OFF</p>
+                    </div>
+                </section>
+                <footer>
+                    <p>Copyright © 1995-2022 eBay Inc. All Rights Reserved.</p>
+                </footer>
+            </main>
+        </div>
+    </body>
+</html>

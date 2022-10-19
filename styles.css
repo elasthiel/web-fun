@@ -1,0 +1,221 @@
+* {
+    box-sizing: border-box;
+}
+
+#wrapper {
+    width: 1360px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;;
+}
+
+.row {
+    padding: 10px 40px;
+}
+
+.nav-tools {
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 0.75rem;
+}
+    .nav-tools ul, .nav-tools li {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .nav-tools ul {
+        margin: 0;
+        padding: 0;
+    }
+    .nav-tools a {
+        padding: 4px;
+    }
+        .nav-tools a:hover {
+            background-color: #e5e5e5;
+        }
+    .nav-tools__img {
+        width: 22px;
+        height: 22px;
+    }
+
+    .nav-tools__list--help a, .nav-tools__list--personal a {
+        color: #000000;
+        text-decoration: none;
+    }
+    .nav-tools__list--sign-in {
+        width: calc(100%/12 * 2);
+    }
+    .nav-tools__list--help {
+        width: calc(100%/12 * 5);
+    }
+        .nav-tools__list--help a{
+            padding-right: 10px;
+        }
+    .nav-tools__list--personal {
+        width: calc(100%/12 * 5);
+        text-align: right;
+    }
+
+.banner {
+    border-bottom: 2px solid #e5e5e5;
+}
+    .banner__img {
+        width: calc(100%/12 * 2);
+        vertical-align: middle;
+    }
+    .banner form {
+        width: calc(100%/12 * 9);
+        display: inline-block;
+        vertical-align: middle;
+        text-align: right;
+    }
+    .banner__inputs, .banner__btn {
+        height: 40px;
+    }
+    .banner__inputs--text {
+        width: 40%;
+        border-top: 2px solid #000000;
+        border-bottom: 2px solid #000000;
+        border-left: 2px solid #000000;
+    }
+    .banner__inputs--select {
+        width: 20%;
+        border-top: 2px solid #000000;
+        border-bottom: 2px solid #000000;
+        border-right: 2px solid #000000;
+        border-left: none;
+    }
+    .banner__btn--search {
+        width: 15%;
+        cursor: pointer;
+        color: white;
+        background: #3665F3;
+        border: none;
+    }
+    .banner__btn--advance {
+        text-decoration: none;
+        color: #adadad;
+    }
+    .banner__btn--advance:hover {
+        background-color: #e5e5e5;
+    }
+
+.categories {
+    padding-bottom: 0;
+}
+    .categories a{
+        width: calc(100%/10);
+        display: inline-block;
+        vertical-align: middle;
+        color: #000000;
+        font-weight: bold;
+        font-size: 0.75rem;
+        text-align: center;
+        text-decoration: none;
+    }
+    .categories a:hover {
+        border-bottom: 2px solid #000000;
+    }
+
+.top-brands {
+    background: #70E2E3;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+    .top-brands__section {
+        width: 25%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .top-brands__title {
+        margin: 0;
+        color:#003146;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .top-brands__btn {
+        display: block;
+        height: 40px;
+        color: #003146;
+        text-align: center;
+        padding-top: 10px;
+        text-decoration: none;
+    }
+    .top-brands__btn:hover {
+        background: #003146;
+        color: white;
+    }
+
+    .top-brands__img {
+        width: 100%;
+    }
+    .top-brands__btn--buy {
+        width:  50%;
+        display: inline-block;
+        border: 1px solid #003146;
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .top-brands__section--sample {
+        padding: 10px;
+        text-align: center;
+    }
+
+.sale__section {
+    padding: 0 20px;
+}
+    .sale__title {
+        display: inline-block;
+    }
+    .sale__btn {
+        margin-left: 30px;
+        color: #747474;
+        font-size: 1.25rem;
+        text-decoration: none;
+    }
+    .sale__btn:hover {
+        color:#000000;
+    }
+    .sale__img {
+        display: inline-block;
+        width: calc(100%/7);
+    }
+
+.today-deal__section {
+    display: inline-block;
+    width: calc(100%/5);
+}
+    .today-deal__title {
+        display: inline-block;
+        width: calc(100%/12 * 4);
+    }
+    .today-deal__btn {
+        display: inline-block;
+        width: calc(100%/12 * 7);
+        margin-left: 30px;
+        color: #747474;
+        font-size: 1.25rem;
+        text-decoration: none;
+    }
+    .today-deal__btn:hover {
+        color: #000000;
+    }
+    .today-deal__img {
+        width: 100%;
+    }
+
+    .today-deal__text--emphasize {
+        font-weight: bold;
+    }
+    .today-deal__text--discount {
+        font-size: 0.75rem;
+    }
+
+footer {
+    border-top: 2px solid #e5e5e5;
+    color: #747474;
+    line-height: 200px;
+    text-align: center;
+}
+    footer p {
+        width: 50%;
+        margin: 0 auto;  
+    }
+
